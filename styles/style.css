@@ -1,5 +1,5 @@
 .body {
-  margin: 0;
+  margin: 0 auto;
 }
 
 .page {
@@ -7,7 +7,7 @@
 
   min-width: 1100px;
   max-width: 1600px;
-  /*margin: 0 auto;*/ /*если убрать ничего не меняется*/
+  /*margin: 0 auto;*/
 }
 
 /* Header */
@@ -44,9 +44,7 @@
   justify-content: center;
   align-items: center;
   margin: 64px;
-}
 
-.title {
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
@@ -58,14 +56,11 @@
   position: absolute;
   left: 64px;
   bottom: 30px;
-}
+  margin: 0;
 
-.subtitle {
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-
-  margin: 0;
 }
 
 .header__link {
@@ -115,9 +110,7 @@
 
 .two-columns__brief {
   width: 175px;
-}
 
-.brief {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -145,6 +138,71 @@
 
 .two-columns__paragraph:last-of-type {
   margin-bottom: 0;
+}
+
+/* Digits */
+
+.digits {
+  margin: 100px auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-title {
+  width: 60%;
+
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  text-align: center;
+
+  margin: 0 auto 20px;
+}
+
+.section-subtitle {
+  width: 60%;
+
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+
+  margin: 0 auto;
+}
+
+.table {
+  width: 1100px;
+}
+
+.table__row { /*!!!!*/
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 60px;
+}
+
+.table__cell {
+  width: 250px;
+}
+
+.table__heading{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+
+  margin: 0;
+}
+
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+
+  margin: 20px auto 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
