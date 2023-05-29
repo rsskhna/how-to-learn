@@ -10,6 +10,7 @@
   /*margin: 0 auto;*/
 }
 
+
 /* Header */
 
 .header {
@@ -91,7 +92,9 @@
   right: 0;
 }
 
+
 /* Main */
+
 
 /* Description */
 
@@ -139,6 +142,7 @@
 .two-columns__paragraph:last-of-type {
   margin-bottom: 0;
 }
+
 
 /* Digits */
 
@@ -204,6 +208,63 @@
 
   margin: 20px auto 0;
 }
+
+
+/* Feynman */
+
+.feynman {
+  height: 890px;
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  background-color: #f2f2f2;
+}
+
+.feynman__title {
+  width: 648px;
+
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+
+  text-align: center;
+
+  margin: 100px auto 0;
+  z-index: 1;
+}
+
+.feynman__subtitle {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+
+  margin: 70px auto 0;
+  z-index: 1;
+}
+
+.feynman__link {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+
+  color: #2f80ed;
+
+  position: absolute;
+  top: 50%;
+  right: 48px;
+}
+
+.feynman__image {
+  height: 637px;
+  width: 867px;
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
