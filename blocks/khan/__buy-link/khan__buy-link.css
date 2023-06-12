@@ -7,4 +7,12 @@
   color: #2f80ed;
 
   margin: 0;
+
+  opacity: 1;
+  transition: opacity 0.25s linear;
 }
+
+.khan__buy-link:hover {
+  opacity: 0.4;
+}
+
